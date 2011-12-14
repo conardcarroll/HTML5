@@ -211,7 +211,7 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
 body{
-  background: #336699;
+  background: #E3DBD3;
 }
 
 header {
@@ -219,7 +219,11 @@ header {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    background: #DADADA;
+    background: #463C33;
+    background-image: -moz-linear-gradient(#463C33, #5E5244);
+    background-image: -webkit-linear-gradient(#463C33, #5E5244);
+    /* background: -o-linear-gradient(#463C33, #5E5244); */
+    color: #CCCCCC;
     -moz-border-radius-bottomleft: 5px;
     -moz-border-radius-bottomright: 5px;
     -webkit-border-bottom-left-radius: 5px;
@@ -232,7 +236,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background: #DADADA;
+    background: #463C33;
+    background-image: -moz-linear-gradient(#463C33, #5E5244);
+    background-image: -webkit-linear-gradient(#463C33, #5E5244);
+    /* background: -o-linear-gradient(#463C33, #5E5244); */
+    color: #CCCCCC;
     -moz-border-radius-bottomleft: 5px;
     -moz-border-radius-bottomright: 5px;
     -webkit-border-bottom-left-radius: 5px;
@@ -251,7 +259,7 @@ nav {
 nav > ul {
     padding: 5px;
     width: 120px;
-    background: #999999;
+    background: #E3DBD3;
     text-align: center;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright: 5px;
@@ -291,7 +299,7 @@ aside {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    background: #ffffff;
+    background: #E8E4E0;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright: 5px;
     -webkit-border-top-left-radius: 5px;
