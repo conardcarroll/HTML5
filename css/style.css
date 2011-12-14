@@ -42,8 +42,8 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #999999; color: #fff; text-shadow: none; }
+::selection { background: #999999; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -210,21 +210,91 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: 
    ========================================================================== */
+body{
+  background: #336699;
+}
 
+header {
+    width: 97%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #DADADA;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
 
+footer {
+    width: 97%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #DADADA;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
 
+nav {
+    width: 97%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+nav > ul {
+    padding: 5px;
+    width: 120px;
+    background: #999999;
+    text-align: center;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
 
+nav > ul > li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
+aside {
+    text-align: right;
+    float: right;
+    position: relative;
+    width: 10em;
+}
 
+#container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background: #666666;
+    -webkit-box-shadow: #282A30 4px 4px 3px;
+    -moz-box-shadow: #282A30 4px 4px 3px;
+}
 
-
-
-
-
-
-
-
+#main {
+    width: 97%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
