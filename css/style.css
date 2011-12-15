@@ -222,7 +222,7 @@ header {
     background: #463C33;
     background-image: -moz-linear-gradient(#463C33, #5E5244);
     background-image: -webkit-linear-gradient(#463C33, #5E5244);
-    /* background: -o-linear-gradient(#463C33, #5E5244); */
+    background: -o-linear-gradient(#463C33, #5E5244);
     color: #CCCCCC;
     -moz-border-radius-bottomleft: 5px;
     -moz-border-radius-bottomright: 5px;
@@ -239,7 +239,7 @@ footer {
     background: #463C33;
     background-image: -moz-linear-gradient(#463C33, #5E5244);
     background-image: -webkit-linear-gradient(#463C33, #5E5244);
-    /* background: -o-linear-gradient(#463C33, #5E5244); */
+    background: -o-linear-gradient(#463C33, #5E5244);
     color: #CCCCCC;
     -moz-border-radius-bottomleft: 5px;
     -moz-border-radius-bottomright: 5px;
