@@ -10,8 +10,10 @@
   <head>
     <meta charset="utf-8">
     
-    <!-- Force the latest versions -->
+    <!-- Force the latest version or the HTML render -->
+    <!-- X-UA-Compatinble will fail the W3C validator but help with IE compatability -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
     <title>HTML5 Test of Concept</title>
     <meta name="description" content="Test site for HTML5 and CSS3">
     <meta name="author" content="Matt Hernandez">
@@ -40,7 +42,7 @@
   
   <body>
     <div id="container">
-      <header>
+      <header id="mainheader">
         <h1>HTML5 Test of Concept</h1>
         <em>This is a test of concept using HTML5 and CSS3</em>
       </header>
@@ -50,13 +52,45 @@
           <li><a href="http://eventargs.com">Main Site</a></li>
         </ul>
       </nav>
-      <article id="main">
-        <h3>Here is a sweet header.</h3>
+      <article class="content">
+        <header>
+          <h2>HTML5 Structural Elements</h2>
+          <small>
+            Posted on <time datetime="2011-12-20">December 20, 2011</time>
+          </small>
+        </header>
         <p>
-          Here is some sweet content.
+          This page was built using HTML5. The real magic behind this HTML5
+          page is that each structural element accurately reflects the purpose
+          of the data contained within the element. This particular section is
+          contained within an article element which represents an article of 
+          data.
         </p>
+        <blockquote>
+          <i>
+            Don't think of "article" as a news article, think an article of
+            clothing - a discrete item.
+          </i>
+          <br/>
+          - <a href="http://www.amazon.com/Introducing-HTML5-Voices-That-Matter/dp/0321687299" target="_blank">
+            Introducing HTML5</a>
+        </blockquote>
+        <p>
+          Why is this important? Because each structural element is specific to
+          its prupose, it would be easier to parse and understand the content.
+          This might not mean much to you, but this page supports web accessibility.
+          A third party reader could very easily parse through the markup and find
+          all content contained within an article element. In the case of this
+          article, the parser would find a header that explains the content
+          followed by each paragraph within the article and, finally, a footer
+          for the element with information about the person that posted this
+          information.
+        </p>
+        <footer>
+          <small>Posted by <a href="http://eventargs.com">Matt</a></small>
+        </footer>
       </article>
-      <footer>
+      <footer id="mainfooter">
         <p>
           Copyright &copy; EventArgs Some Rights Reserved
         </p>

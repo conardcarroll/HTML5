@@ -214,37 +214,9 @@ body{
   background: #E3DBD3;
 }
 
-header {
-    width: 97%;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #463C33;
-    background-image: -moz-linear-gradient(#463C33, #5E5244);
-    background-image: -webkit-linear-gradient(#463C33, #5E5244);
-    background: -o-linear-gradient(#463C33, #5E5244);
-    color: #CCCCCC;
-    -moz-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-}
-
-footer {
-    width: 97%;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background: #463C33;
-    background-image: -moz-linear-gradient(#463C33, #5E5244);
-    background-image: -webkit-linear-gradient(#463C33, #5E5244);
-    background: -o-linear-gradient(#463C33, #5E5244);
-    color: #CCCCCC;
-    -moz-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
+h2, h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 nav {
@@ -290,11 +262,44 @@ aside {
     margin-right: auto;
     margin-top: 0;
     background: #666666;
-    -webkit-box-shadow: #282A30 4px 4px 3px;
-    -moz-box-shadow: #282A30 4px 4px 3px;
+    -webkit-box-shadow: #282A30 2px 2px 1px;
+    -moz-box-shadow: #282A30 2px 2px 1px;
 }
 
-#main {
+#mainheader {
+    width: 97%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #463C33;
+    background-image: -moz-linear-gradient(#463C33, #5E5244);
+    background-image: -webkit-linear-gradient(#463C33, #5E5244);
+    background: -o-linear-gradient(#463C33, #5E5244);
+    color: #CCCCCC;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+#mainfooter {
+    width: 97%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #463C33;
+    background-image: -moz-linear-gradient(#463C33, #5E5244);
+    background-image: -webkit-linear-gradient(#463C33, #5E5244);
+    background: -o-linear-gradient(#463C33, #5E5244);
+    color: #CCCCCC;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+.content {
     width: 97%;
     padding: 10px;
     margin-left: auto;
