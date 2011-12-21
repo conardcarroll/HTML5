@@ -256,6 +256,14 @@ aside {
     width: 10em;
 }
 
+summary {
+  cursor:pointer; text-decoration:underline;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
 #container {
     width: 90%;
     margin-left: auto;

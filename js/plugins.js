@@ -1,4 +1,3 @@
-
 // usage: log('inside coolFunc', this, arguments);
 // paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
 window.log = function(){
@@ -16,5 +15,21 @@ window.log = function(){
 {console.log();return window.console;}catch(err){return window.console={};}})());
 
 
-// place any jQuery/helper plugins in here, instead of separate, slower script files.
+/*
+ * Place any jQuery/helper plugins in here, instead of separate, slower script
+ * files.
+ * 
+ */
 
+/*
+ * Create any necessary functions here on document load.
+ */
+$(function() {
+  // Collapse details for all summaries and attach the click to
+  // expand the details.
+  if (!isDetailsSupported) {
+    $('details:not([open]) p').hide();
+    $('details summary').click(function() {
+      $(this).siblings('p').slideToggle('slow'); });
+    };
+});
